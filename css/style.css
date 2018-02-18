@@ -1,0 +1,349 @@
+/*BODY*/
+body,
+html {
+  font-family: "Anton", sans-serif;
+  background: #fcfcfc;
+}
+
+.redTxt {
+  color: red;
+}
+
+.smallTxt {
+  font-size: 0.5em;
+}
+
+/*HEADER*/
+#header {
+  height: 80px;
+  width: 830px;
+  left: 120px;
+  top: 30px;
+  float: right;
+  position: absolute;
+  font-size: 2.5em;
+}
+#lefthr1 {
+  position: absolute;
+  left: 150px;
+  top: 120px;
+  width: 300px;
+}
+
+#righthr1 {
+  position: absolute;
+  left: 482px;
+  top: 120px;
+  width: 300px;
+}
+
+#star1 {
+  position: absolute;
+  left: 457px;
+  top: 109px;
+  color: red;
+  font-size: 25px;
+}
+
+/*IMAGES*/
+#img1 {
+  float: left;
+  position: absolute;
+}
+
+#img2 {
+  float: left;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+#img3 {
+  position: relative;
+  top: 108px;
+  left: 755px;
+}
+
+#img4 {
+  position: relative;
+  top: 340px;
+  left: 500px;
+}
+
+#img5 {
+  position: absolute;
+  top: 1750px;
+  left: 100px;
+  height: 70px;
+  width: 70px;
+}
+
+#img6 {
+  position: absolute;
+  top: 1750px;
+  left: 250px;
+  height: 70px;
+  width: 70px;
+}
+
+#img7 {
+  position: absolute;
+  top: 1740px;
+  left: 410px;
+  height: 80px;
+  width: 50px;
+}
+
+#img8 {
+  position: absolute;
+  top: 1750px;
+  left: 555px;
+  height: 70px;
+  width: 70px;
+}
+
+#img9 {
+  position: absolute;
+  top: 1750px;
+  left: 700px;
+  height: 70px;
+  width: 70px;
+}
+
+#img10 {
+  position: relative;
+  top: 2077px;
+  left: 350px;
+}
+
+#img11 {
+  position: relative;
+  top: 3770px;
+  left: 330px;
+}
+
+#img12 {
+  position: relative;
+  top: 4170px;
+  right: 450px;
+}
+
+/*TEXT*/
+#para1 {
+  height: max-content;
+  width: max-content;
+  left: 60px;
+  top: 180px;
+  bottom: 0px;
+  float: right;
+  position: absolute;
+  font-size: 2em;
+}
+
+#para2 {
+  height: max-content;
+  width: max-content;
+  left: 60px;
+  top: 780px;
+  bottom: 0px;
+  float: right;
+  position: absolute;
+  font-size: 2em;
+}
+
+#para3 {
+  height: max-content;
+  width: max-content;
+  left: 60px;
+  top: 1350px;
+  bottom: 0px;
+  float: right;
+  position: absolute;
+  font-size: 2em;
+}
+#para4 {
+  height: 250px;
+  width: max-content;
+  left: 60px;
+  top: 1930px;
+  bottom: 0px;
+  float: right;
+  position: absolute;
+  font-size: 2em;
+}
+
+#para5 {
+  height: max-content;
+  width: max-content;
+  left: 60px;
+  top: 2550px;
+  bottom: 0px;
+  float: right;
+  position: absolute;
+  font-size: 2em;
+}
+#para6 {
+  height: max-content;
+  width: max-content;
+  left: 60px;
+  top: 3250px;
+  bottom: 0px;
+  float: right;
+  position: absolute;
+  font-size: 2em;
+}
+
+#para7 {
+  height: max-content;
+  width: max-content;
+  left: 60px;
+  top: 3750px;
+  bottom: 0px;
+  float: right;
+  position: absolute;
+  font-size: 2em;
+}
+
+/*GRAPHS*/
+#barGraph1 {
+  position: absolute;
+  height: 380px;
+  width: 780px;
+  top: 440px;
+}
+
+g.axisY path,
+g.grid path {
+  stroke: #fff;
+}
+
+g.tick text {
+  font-size: 16px;
+  font-family: "Anton", sans-serif;
+}
+
+#barGraph2 {
+  position: absolute;
+  height: 250px;
+  width: 760px;
+  top: 1120px;
+}
+#legend1 {
+  float: right;
+  position: relative;
+  font-size: 0.5em;
+  top: -47px;
+}
+
+#arc1 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 1650px;
+}
+
+#arc2 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 1650px;
+  left: 150px;
+}
+
+#arc3 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 1650px;
+  left: 300px;
+}
+
+#arc4 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 1650px;
+  left: 450px;
+}
+
+#arc5 {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  top: 1650px;
+  left: 600px;
+}
+
+#barGraph3 {
+  position: absolute;
+  height: 400px;
+  width: 760px;
+  top: 2190px;
+}
+
+#pie1 {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  left: 50px;
+  top: 2870px;
+}
+#pie2 {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  left: 500px;
+  top: 2870px;
+}
+#legend2 {
+  position: absolute;
+  font-size: 1em;
+  left: 300px;
+  top: 3100px;
+}
+
+#pie3 {
+  position: absolute;
+  height: 320px;
+  width: 320px;
+  left: 50px;
+  top: 3470px;
+}
+#legend3 {
+  position: absolute;
+  font-size: 1em;
+  left: 350px;
+  top: 3470px;
+}
+
+/*FOOTER*/
+#lefthr2 {
+  position: absolute;
+  left: 150px;
+  top: 4200px;
+  width: 300px;
+}
+
+#righthr2 {
+  position: absolute;
+  left: 482px;
+  top: 4200px;
+  width: 300px;
+}
+
+#star2 {
+  position: absolute;
+  left: 457px;
+  top: 4190px;
+  color: red;
+  font-size: 25px;
+}
+
+#footer {
+  height: 80px;
+  width: 830px;
+  left: 500px;
+  top: 4220px;
+  position: absolute;
+  font-size: 1.2em;
+}

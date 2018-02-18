@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Name: Aman Tewary
+    Student ID: B00782684
+  -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Assignment_1-Aman_Tewary</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <script src="js/d3.v4.js"></script>
+  <script src="js/data.js"></script>
+</head>
+
+<body>
+  <div class="body">
+
+    <img src="images/image1.jpg" id="img1">
+    <div id="header">
+      <p>VIDEO GAMES: AN INDUSTRY IN TRANSFORMATION</p>
+    </div>
+    <div id="lefthr1">
+      <hr size="4" noshade>
+    </div>
+    <div id="star1">&#9733;</div>
+    <div id="righthr1">
+      <hr size="4" noshade>
+    </div>
+    <img src="images/image2.jpg" id="img2">
+    <img src="images/image3.jpg" id="img3">
+
+    <div id="para1">
+      <p>
+        <span class="redTxt"> PHYSICAL RETAIL SALES</span> OF COMPUTER AND VIDEO GAMES ARE
+        <br />CURRENTLY ON THEIR
+        <span class="redTxt">LOWEST LEVEL</span> SINCE 2006.</p>
+      <p>U.S. COMPUTER AND VIDEO GAME SALES (PHYSICAL RETAIL)
+        <br />
+        <span class="smallTxt">in billion U.S dollars</span>
+      </p>
+    </div>
+
+    <div id="barGraph1"></div>
+    <img src="images/image4.jpg" id="img4">
+
+    <div id="para2">
+      <p>
+        <span class="redTxt">PHYSICAL SALES</span> STILL MAKE UP
+        <span class="redTxt">THE LION'S SHARE</span> OF GAMING
+        <br />SOFTWARE REVENUE, BUT
+        <span class="redTxt">DIGITAL DELIVERY</span> IS BECOMING
+        <br />
+        <span class="redTxt">INCREASINGLY IMPORTANT</span>
+      </p>
+      <p>DIGITAL VS. PHYSICAL SALES
+        <br />
+        <span class="smallTxt">in %</span>
+      </p>
+      <p id="legend1">Physical Format
+        <span class="redTxt" style="font-size: 25px;">&#9632;</span>
+        <span style="font-size: 25px;">&#9632;</span> Digital Format*</p>
+    </div>
+
+    <div id="barGraph2"></div>
+
+    <div id="para3">
+      <p>FOR NOW,
+        <span class="redTxt">CONSOLES REMAIN THE MOST POPULAR</span> GAMING
+        <br /> DEVICES IN THE U.S.</p>
+      <p>U.S. HOUSEHOLDS THAT OWN AT LEAST ONE OF THE FOLLOWING
+        <br /> DEVICES PLAY GAMES ON THEIR...
+        <br />
+        <span class="smallTxt">in %</span>
+      </p>
+    </div>
+
+    <img src="images/image5.jpg" id="img5">
+    <img src="images/image6.jpg" id="img6">
+    <img src="images/image7.jpg" id="img7">
+    <img src="images/image8.jpg" id="img8">
+    <img src="images/image9.jpg" id="img9">
+    <div id="arc1"></div>
+    <div id="arc2"></div>
+    <div id="arc3"></div>
+    <div id="arc4"></div>
+    <div id="arc5"></div>
+
+
+    <div id="para4">
+      <p>BUT
+        <span class="redTxt">SMARTPNONE GAMEING</span> IS EXPECTED TO GET BIGGER IN THE
+        <br /> NEXT FEW YEARS.</p>
+      <p>U.S. MOBILE GAMERS*
+        <br />
+        <span class="smallTxt">in millions</span>
+      </p>
+    </div>
+
+    <img src="images/image10.jpg" id="img10">
+    <div id="barGraph3"></div>
+
+    <div id="para5">
+      <p>
+        <span class="redTxt">CASUAL GAMERS</span> ARE SHIFTING TO LOW-COST ONLINE AND SMART-
+        <br /> PHONE GAMES.</p>
+      <div>
+        <p style="float:left">TYPES OF ONLINE GAMES
+          <br />PLAYED MOST OFTEN
+          <br />
+          <span class="smallTxt">in %</span>
+        </p>
+        <p style="float:right; text-align: right;">TYPES OF MOBILE GAMES
+          <br />PLAYED MOST OFTEN
+          <br />
+          <span class="smallTxt">in %</span>
+        </p>
+      </div>
+    </div>
+
+    <div id="pie1"></div>
+    <div id="pie2"></div>
+
+    <p id="legend2">
+      <span class="redTxt" style="font-size: 35px;">&#9632;</span> PUZZLE, BOARD GAME, GAME SHOW, TRIVIA, CARD GAMES
+      <br>
+      <span style="font-size: 35px;">&#9632;</span> ACTION, SPORTS STRATEGY, ROLE-PLAYING
+      <br>
+      <span style="font-size: 35px; color:#E1E1E1">&#9632;</span> OTHER</p>
+
+    <div id="para6">
+      <p>BUT VIDEO GAME SALES ARE STILL DRIVEN BY
+        <span class="redTxt"> CORE GAMERS.</span>
+      </p>
+      <p>VIDEO GAMES SALES 2011, BY GENRE
+        <br />
+        <span class="smallTxt">in %</span>
+      </p>
+    </div>
+    <div id="pie3"></div>
+    <p id="legend3">
+      <span class="redTxt" style="font-size: 35px;">&#9632;</span> CASUAL GAMES
+      <br>
+      <span style="font-size: 35px;">&#9632;</span> ACTION, SPORTS STRATEGY, ROLE-PLAYING
+      <br>
+      <span style="font-size: 35px; color:#999999">&#9632;</span> SHOOTER
+      <br>
+      <span style="font-size: 35px; color:#E1E1E1">&#9632;</span>OTHER</p>
+    <img src="images/image11.jpg" id="img11">
+    <div id="para7">
+      <p>SMARTPHONE GAMES SUCH AS
+        <span class="redTxt">ANGRY BIRDS CAN
+          <br>BE EXTREMELY POPULAR</span>, BUT
+        <span class="redTxt">THE BIG MONEY</span> IS
+        <br>STILL IN
+        <span class="redTxt">TRADITIONAL VIDEO GAMES:</span>
+      </p>
+      <p>ROVIO, MAKER OF THE ANGRY BIRDS FRANCHISE,POSTED
+        <br>
+        <span class="redTxt">$106.3 MILLION</span> REVENUE IN 2011.</p>
+      <p>CALL OF DUTY: MODERN WARFARE 3, THE BEST-SELLING VIDEO
+        <br>GAME OF 2011, REACHED
+        <span class="redTxt">$1 BILLION</span> IN SALES AFTER 16 DAYS.</p>
+    </div>
+    <div id="lefthr2">
+      <hr size="4" noshade>
+    </div>
+    <div id="star2">&#9733;</div>
+    <div id="righthr2">
+      <hr size="4" noshade>
+    </div>
+    <div id="footer">
+      <p>SOURCES: ENTERTAINMENT SOFTWARE ASSOCIATION,
+        <br>NPD GROUP, ROVIO ACTIVISON BLIZZARD, EMARKETER
+        <p>
+    </div>
+    <img src="images/image12.jpg" id="img12">
+  </div>
+
+  <script src="js/arc.js"></script>
+  <script src="js/barGraph1.js"></script>
+  <script src="js/barGraph2.js"></script>
+  <script src="js/barGraph3.js"></script>
+  <script src="js/pie1.js"></script>
+  <script src="js/pie2.js"></script>
+  <script src="js/pie3.js"></script>
+
+</body>
+<!--
+REFERENCES:
+
+[1]"d3/d3", GitHub, 2018. [Online]. Available: https://github.com/d3/d3. [Accessed: 17- Feb- 2018].
+
+[2]"Mike Bostock’s Blocks - bl.ocks.org", Bl.ocks.org, 2018. [Online]. Available: https://bl.ocks.org/mbostock. [Accessed: 17- Feb- 2018].
+
+[3]"D3.js Essential Training for Data Scientists - Welcome", Linkedin.com, 2018. [Online]. Available: https://www.linkedin.com/learning/d3-js-essential-training-for-data-scientists/welcome. [Accessed: 17- Feb- 2018].
+
+[4]"D3JS Interactive Bar Chart Part 2 Intractive Bar Chart", Gist, 2018. [Online]. Available: https://gist.github.com/cnaithani/c3aac3e66335890a2355f6ef30a557af. [Accessed: 17- Feb- 2018].
+
+[5]"D3js Simple Bar Chart", CodePen, 2018. [Online]. Available: https://codepen.io/onceupon/pen/ggBWpK. [Accessed: 17- Feb- 2018].
+
+[6]"D3JS Interactive Pie Chart - Part 2 (Interactive pie chart with events)", YouTube, 2018. [Online]. Available: https://www.youtube.com/watch?v=NjEAdIzCQDc. [Accessed: 17- Feb- 2018].
+
+[7]"Simple d3.js tooltips", Bl.ocks.org, 2018. [Online]. Available: http://bl.ocks.org/d3noob/a22c42db65eb00d4e369. [Accessed: 17- Feb- 2018].
+
+[8]"D3js Tutorials: Part 13 - Adding Tooltips To Your Bar Graph", YouTube, 2018. [Online]. Available: https://youtu.be/wsCOif7RMBo. [Accessed: 17- Feb- 2018].
+
+[9]"Arc Tween", Bl.ocks.org, 2018. [Online]. Available: http://bl.ocks.org/mbostock/5100636. [Accessed: 17- Feb- 2018].
+
+-->
+
+</html>
